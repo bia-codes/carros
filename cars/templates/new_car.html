@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!--método post = usuário enviando informações pra mim
+    multipart indica que o formulário vai enviar uma série de conteúdos diferentes, campos diferentes
+    type = submit significa que vai ativar o método post pra enviar os dados cadastrados do usuário para o backend -->
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>
+            {{form.as_table}}
+        </table>
+
+        <input type="submit" value="Cadastrar" class="btn btn-primary">
+
+    </form>
+
+{% endblock%}

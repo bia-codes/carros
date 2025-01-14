@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <form method="post">
+        {% csrf_token %}
+
+        <div class="form-group">
+            {{user_form.username.errors}}
+            <label>Usuário:</label>
+            {{user_form.username}}
+        </div>
+
+        <div class="form-group">
+            {{user_form.password1.errors}}
+            <label>Senha:</label>
+            {{user_form.password1}}
+        </div>
+        
+        <div class="form-group">
+            {{user_form.password2.errors}}
+            <label>Confirmação de senha:</label>
+            {{user_form.password2}}
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+
+{% endblock %}
+
+
+
+
+
+<!-- form-group organiza um visual menos feio e mais organizado 
+ {{user_form.username.errors}} serve pra mostrar o erro cometido pelo usuário quando digita errado o usuário
+ <label> é texto solto -->
