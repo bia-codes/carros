@@ -1,9 +1,11 @@
 {
   "version": 2,
+  "framework": "other",
+  "buildCommand": "python manage.py collectstatic --noinput && python manage.py migrate",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "django_projeto_carros/app/wsgi.py"
+      "dest": "app/wsgi.py"
     }
   ]
 }
