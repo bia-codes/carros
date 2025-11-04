@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "django_projeto_carros/wsgi.py",
+      "src": "django_projeto_carros/app/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "15mb",
-        "runtime": "Python3.9"
+        "runtime": "Python3.12.6"
       }
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "django_projeto_carros/wsgi.py"
+      "dest": "django_projeto_carros/app/wsgi.py"
     }
   ]
 }
