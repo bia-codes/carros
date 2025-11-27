@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Django](https://img.shields.io/badge/Django-Framework-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Projeto web para **gestão de veículos**, desenvolvido em **Python + Django**.  
 Permite o gerenciamento completo de carros, com sistema de autenticação, cadastro de usuários e controle de dados.
@@ -35,16 +34,18 @@ Permite o gerenciamento completo de carros, com sistema de autenticação, cadas
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
+```bash
 carros/
-├── accounts/        # Autenticação de usuários
-├── cars/            # App principal (gestão de veículos)
-├── app/             # Configurações do projeto Django
-├── templates/       # Templates globais
-├── static/          # Arquivos estáticos
+├── accounts/     # Autenticação de usuários
+├── cars/         # Gestão de veículos
+├── app/          # Configurações do projeto Django
+├── templates/    # Templates globais
+├── static/       # Arquivos estáticos (CSS, JS, imagens)
 ├── manage.py
 └── requirements.txt
- 
+ ```
 ---
 
 ## Como rodar o projeto localmente
@@ -56,7 +57,7 @@ carros/
 
 ---
 
-### Passo a passo:
+## Passo a passo:
 
 Clone o repositório:
 
@@ -69,10 +70,10 @@ Crie e ative o ambiente virtual:
 ```
 python -m venv venv
 ```
-# Windows:
+### Windows:
 ```venv\Scripts\activate```
 
-# Linux/Mac:
+### Linux/Mac:
 ```source venv/bin/activate```
 
 Instale as dependências:
