@@ -1,8 +1,8 @@
 # 🚗 Carros — Sistema de Gestão de Veículos em Django
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Django](https://img.shields.io/badge/Django-Framework-green)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-em%20desenvolvimento-purple)
 
 Projeto web para **gestão de veículos**, desenvolvido em **Python + Django**.  
 Permite o gerenciamento completo de carros, com sistema de autenticação, cadastro de usuários e controle de dados.
