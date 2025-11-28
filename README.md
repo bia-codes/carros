@@ -119,6 +119,6 @@ Esse projeto me ajudou a fortalecer meus conhecimentos em Python, Django, lógic
 Contribuições e sugestões são bem vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ## 📌 Contato
-GitHub: https://github.com/bia-codes \**
-LinkedIn: www.linkedin.com/in/bianca-de-souza-lima-078007263 \**
+GitHub: https://github.com/bia-codes  
+LinkedIn: www.linkedin.com/in/bianca-de-souza-lima-078007263  
 Em busca de oportunidade na área de desenvolvimento backend com Python e Django. 
