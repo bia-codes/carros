@@ -59,18 +59,18 @@ carros/
 
 ## Passo a passo:
 
-# 1. Dentro do seu terminal, clone o repositório:
+## 1. Dentro do seu terminal, clone o repositório:
 
 ```bash
 git clone https://github.com/bia-codes/carros.git
 ```
 
-# 2. Entre na pasta criada:
+## 2. Entre na pasta criada:
 ```
 cd carros
 ```
 
-# 3. Crie e ative o ambiente virtual:
+## 3. Crie e ative o ambiente virtual:
 ```
 python -m venv venv
 ```
@@ -80,23 +80,23 @@ python -m venv venv
    ### 3.2 No Linux/Mac:
    ```source venv/bin/activate```
 
-# 4. Instale as dependências:
+## 4. Instale as dependências:
 
 ```pip install -r requirements.txt```
 
-# 5. Aplique as migrações:
+## 5. Aplique as migrações:
 
 ```python manage.py migrate```
 
-# 5. Crie um superusuário:
+## 5. Crie um superusuário:
 
 ```python manage.py createsuperuser```
 
-# 6. Inicie o servidor:
+## 6. Inicie o servidor:
 
 ```python manage.py runserver```
 
-# 7. Acesse no navegador:
+## 7. Acesse no navegador:
 
    🔗 http://127.0.0.1:8000/
 
