@@ -113,12 +113,12 @@ python -m venv venv
 - Melhorar a interface frontend do projeto
 
 ## 📕 Aprendizados
-Esse projeto me ajudou a fortalecer meus conhecimento em Python, Django, lógica de programação, modelagem de dados e integração com banco de dados.
+Esse projeto me ajudou a fortalecer meus conhecimentos em Python, Django, lógica de programação, modelagem de dados e integração com banco de dados.
 
 ## 🤝 Contribuições / Sugestões
 Contribuições e sugestões são bem vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ## 📌 Contato
-GitHub: https://github.com/bia-codes
-LinkedIn: www.linkedin.com/in/bianca-de-souza-lima-078007263
-Em busca de oportunidade na área de desenvolvimento backend com Python e Django.
+GitHub: https://github.com/bia-codes \**
+LinkedIn: www.linkedin.com/in/bianca-de-souza-lima-078007263 \**
+Em busca de oportunidade na área de desenvolvimento backend com Python e Django. 
