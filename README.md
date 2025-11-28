@@ -48,7 +48,7 @@ carros/
  ```
 ---
 
-## Como rodar o projeto localmente
+## Como rodar o projeto localmente:
 
 ### Pré-requisitos:
 - Python 3.x
@@ -71,14 +71,21 @@ cd carros
 ```
 
 ## 3. Crie e ative o ambiente virtual:
+
+### Criação
 ```
 python -m venv venv
 ```
-   ### 3.1 No Windows:
-   ```venv\Scripts\activate```
+### Ativação
+   #### 3.1 No Windows:
+   ```
+   venv\Scripts\activate
+   ```
    
-   ### 3.2 No Linux/Mac:
-   ```source venv/bin/activate```
+   #### 3.2 No Linux/Mac:
+   ```
+   source venv/bin/activate
+   ```
 
 ## 4. Instale as dependências:
 
