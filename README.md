@@ -19,7 +19,7 @@ Permite o gerenciamento completo de carros, com sistema de autenticação, cadas
 ✔ CRUD completo de carros  
 ✔ Organização em apps (`accounts`, `cars`)  
 ✔ Painel administrativo via Django Admin  
-✔ Estrutura separada por responsabilidades seguindo boas práticas  
+✔ Estrutura separada por responsabilidades, seguindo as boas práticas  
 
 ---
 
@@ -59,39 +59,59 @@ carros/
 
 ## Passo a passo:
 
-Clone o repositório:
+# 1. Dentro do seu terminal, clone o repositório:
 
 ```bash
 git clone https://github.com/bia-codes/carros.git
+```
+
+# 2. Entre na pasta criada:
+```
 cd carros
 ```
 
-Crie e ative o ambiente virtual:
+# 3. Crie e ative o ambiente virtual:
 ```
 python -m venv venv
 ```
-### Windows:
-```venv\Scripts\activate```
+   ### 3.1 No Windows:
+   ```venv\Scripts\activate```
+   
+   ### 3.2 No Linux/Mac:
+   ```source venv/bin/activate```
 
-### Linux/Mac:
-```source venv/bin/activate```
-
-Instale as dependências:
+# 4. Instale as dependências:
 
 ```pip install -r requirements.txt```
 
-Aplique as migrações:
+# 5. Aplique as migrações:
 
 ```python manage.py migrate```
 
-Crie um superusuário:
+# 5. Crie um superusuário:
 
 ```python manage.py createsuperuser```
 
-Inicie o servidor:
+# 6. Inicie o servidor:
 
 ```python manage.py runserver```
 
-Acesse no navegador:
+# 7. Acesse no navegador:
 
-🔗 http://127.0.0.1:8000/
+   🔗 http://127.0.0.1:8000/
+
+---
+
+## 💡 Próximos passos
+- Melhorar a interface frontend do projeto
+
+## 📕 Aprendizados
+Esse projeto me ajudou a fortalecer meus conhecimento em Python, Django, lógica de programação, modelagem de dados e integração com banco de dados.
+
+## 🤝 Contribuições / Sugestões
+Contribuições e sugestões são bem vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📌 Contato
+GitHub: https://github.com/bia-codes
+LinkedIn: www.linkedin.com/in/bianca-de-souza-lima-078007263
+Em busca de oportunidade na área de desenvolvimento backend com Python e Django.
